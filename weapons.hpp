@@ -1,5 +1,4 @@
-#ifndef weapons_hpp
-#define weapons_hpp
+
 
 #include <stdio.h>
 #include <string>
@@ -41,4 +40,4 @@ private:
     static unsigned nextID;
     friend ostream& operator << (ostream& os, const Weapons& b);
 };
-#endif
+
